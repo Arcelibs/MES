@@ -1,0 +1,102 @@
+{
+    "每日召喚": {
+        "recognition": "TemplateMatch",
+        "template": "summon.png",
+        "action": "Click",
+        "next": [
+            "一般召喚"
+        ]
+    },
+    "免費召喚": {
+        "is_sub": true,
+        "recognition": "TemplateMatch",
+        "template": "free.png",
+        "action": "Click",
+        "next": [
+            "免費召喚確認"
+        ]
+    },
+    "免費召喚確認": {
+        "recognition": "TemplateMatch",
+        "template": "success.png",
+        "action": "Click",
+        "next": [
+            "免費召喚skip"
+        ]
+    },
+    "免費召喚skip": {
+        "recognition": "TemplateMatch",
+        "template": "skip.png",
+        "action": "Click",
+        "next": [
+            "免費召喚返回"
+        ]
+    },
+    "免費召喚返回": {
+        "recognition": "TemplateMatch",
+        "template": "back.png",
+        "action": "Click"
+    },
+    "一般召喚": {
+        "recognition": "TemplateMatch",
+        "template": "normal_summon.png",
+        "action": "Click",
+        "next": [
+            "免費召喚",
+            "獲取點擊後的一般召喚"
+        ]
+    },
+    "獲取點擊後的一般召喚": {
+        "recognition": "TemplateMatch",
+        "template": "normal_summon_click.png",
+        "next": [
+            "獲取返回"
+        ]
+    },
+    "獲取返回": {
+        "recognition": "TemplateMatch",
+        "template": "back.png",
+        "next": [
+            "往上拖動螢幕"
+        ]
+    },
+    "往上拖動螢幕": {
+        "action": "Swipe",
+        "begin": "獲取點擊後的一般召喚",
+        "end": "獲取返回",
+        "pre_wait_freezes": 1000,
+        "next": [
+            "遺物召喚"
+        ]
+    },
+    "遺物召喚": {
+        "recognition": "TemplateMatch",
+        "template": "relic_summon.png",
+        "order_by": "Score",
+        "action": "Click",
+        "next": [
+            "召喚x1"
+        ]
+    },
+    "召喚x1": {
+        "recognition": "TemplateMatch",
+        "template": "summon1.png",
+        "action": "Click",
+        "next": [
+            "遺物召喚確認"
+        ]
+    },
+    "遺物召喚確認": {
+        "recognition": "TemplateMatch",
+        "template": "success.png",
+        "action": "Click",
+        "next": [
+            "遺物召喚返回大廳"
+        ]
+    },
+    "遺物召喚返回大廳": {
+        "recognition": "TemplateMatch",
+        "template": "home.png",
+        "action": "Click"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "點戰線": {
+        "recognition": "TemplateMatch",
+        "template": "front.png",
+        "action": "Click",
+        "pre_wait_freezes": 1500,
+        "next": [
+            "戰利品"
+        ]
+    },
+    "戰利品": {
+        "recognition": "OCR",
+        "expected": "戰利品",
+        "action": "Click",
+        "next": [
+            "戰利品全部領取"
+        ]
+    },
+    "戰利品全部領取": {
+        "recognition": "TemplateMatch",
+        "template": "allget.png",
+        "action": "Click",
+        "next": [
+            "戰利品完請點擊畫面"
+        ]
+    },
+    "戰利品完請點擊畫面": {
+        "recognition": "TemplateMatch",
+        "template": "click_screen.png",
+        "action": "Click",
+        "next": [
+            "快速狩獵"
+        ]
+    },
+    "快速狩獵": {
+        "recognition": "TemplateMatch",
+        "template": "Fast_hunting.png",
+        "action": "Click",
+        "next": [
+            "免費快速狩獵",
+            "取消快速狩獵"
+        ]
+    },
+    "免費快速狩獵": {
+        "is_sub": true,
+        "recognition": "TemplateMatch",
+        "template": "free_pre.png",
+        "action": "Click"
+    },
+    "取消快速狩獵": {
+        "recognition": "OCR",
+        "expected": "取消",
+        "action": "Click",
+        "next": [
+            "快速狩獵回到首頁"
+        ]
+    },
+    "快速狩獵回到首頁": {
+        "recognition": "TemplateMatch",
+        "template": "home.png",
+        "action": "Click"
+    }
+}

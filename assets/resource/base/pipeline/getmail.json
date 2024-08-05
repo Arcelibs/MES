@@ -1,0 +1,79 @@
+{
+    "打開信箱": {
+        "recognition": "TemplateMatch",
+        "template": "mail.png",
+        "action": "Click",
+        "next": [
+            "一般"
+        ]
+    },
+    "一般": {
+        "recognition": "OCR",
+        "expected": "一般",
+        "action": "Click",
+        "next": [
+            "一般全部領取"
+        ]
+    },
+    "一般全部領取": {
+        "recognition": "OCR",
+        "expected": "全部領取",
+        "action": "Click",
+        "next": [
+            "請點擊畫面"
+        ]
+    },
+    "請點擊畫面": {
+        "recognition": "OCR",
+        "expected": "請點擊畫面",
+        "action": "Click",
+        "next": [
+            "官方"
+        ]
+    },
+    "官方": {
+        "recognition": "OCR",
+        "expected": "官方",
+        "action": "Click",
+        "next": [
+            "官方全部領取"
+        ]
+    },
+    "官方全部領取": {
+        "recognition": "TemplateMatch",
+        "template": "allget.png",
+        "action": "Click",
+        "next": [
+            "官方請點擊畫面"
+        ]
+    },
+    "官方請點擊畫面": {
+        "recognition": "OCR",
+        "expected": "請點擊畫面",
+        "action": "Click",
+        "next": [
+            "保管箱"
+        ]
+    },
+    "保管箱": {
+        "recognition": "OCR",
+        "expected": "保管箱",
+        "action": "Click",
+        "next": [
+            "保管箱全部領取"
+        ]
+    },
+    "保管箱全部領取": {
+        "recognition": "OCR",
+        "expected": "全部領取",
+        "action": "Click",
+        "next": [
+            "回到首頁"
+        ]
+    },
+    "回到首頁": {
+        "recognition": "TemplateMatch",
+        "template": "back.png",
+        "action": "Click"
+    }
+}
