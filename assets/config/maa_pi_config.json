@@ -8,11 +8,6 @@
         "address": "127.0.0.1:5555",
         "config": {}
     },
-    "resource": "官服",
-    "task": [
-        {
-            "name": "普通任务",
-            "option": []
-        }
-    ]
+    "resource": "國際服繁中",
+    "task": []
 }

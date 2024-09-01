@@ -9,8 +9,8 @@
         ]
     },
     "戰利品": {
-        "recognition": "OCR",
-        "expected": "戰利品",
+        "recognition": "TemplateMatch",
+        "template": "trophy.png",
         "action": "Click",
         "next": [
             "戰利品全部領取"

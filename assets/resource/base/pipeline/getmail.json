@@ -20,10 +20,12 @@
         "expected": "全部領取",
         "action": "Click",
         "next": [
-            "請點擊畫面"
+            "請點擊畫面",
+            "官方"
         ]
     },
     "請點擊畫面": {
+        "is_sub": true,
         "recognition": "OCR",
         "expected": "請點擊畫面",
         "action": "Click",
@@ -44,10 +46,12 @@
         "template": "allget.png",
         "action": "Click",
         "next": [
-            "官方請點擊畫面"
+            "官方請點擊畫面",
+            "保管箱"
         ]
     },
     "官方請點擊畫面": {
+        "is_sub": true,
         "recognition": "OCR",
         "expected": "請點擊畫面",
         "action": "Click",
