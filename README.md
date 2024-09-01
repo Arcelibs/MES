@@ -15,8 +15,24 @@ MaaEvenSoul，一款懶人解手自動化永恆靈魂的小工具，基於**MaaF
 > 低代码的同时仍拥有高扩展性，旨在打造一款丰富、领先、且实用的开源库，助力开发者轻松编写出更好的黑盒测试程序，并推广普及。
 
 
-## 功能取向與目標
+## 未來版本預計發展項目
 
-快速解每日100點數
+v1.0.1 : 自動競技場(5次)
 
-EverTalk 快速點完
+v1.0.2 : 自動推圖(1次)
+
+## 使用說明
+
+Windows(x86)請根據自己的系統下載對應版本的壓縮包。MaaAeonFantasy-win-x86_64-vXXX.zip
+
+解壓縮後運轉MaaPiCli.exe即可
+
+## 模擬器需求
+
+我自己是用BS5(Pie64) 1280X720 240DPI，遊戲內設定如下
+
+![image](https://github.com/user-attachments/assets/862f3256-0a2f-49db-bb54-e7b5a90cfb8f)
+
+
+
+
