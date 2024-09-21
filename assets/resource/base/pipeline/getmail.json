@@ -8,8 +8,8 @@
         ]
     },
     "一般": {
-        "recognition": "OCR",
-        "expected": "般",
+        "recognition": "TemplateMatch",
+        "template": "allget.png",
         "action": "Click",
         "next": [
             "一般全部領取"
@@ -68,8 +68,8 @@
         ]
     },
     "保管箱全部領取": {
-        "recognition": "OCR",
-        "expected": "全部領取",
+        "recognition": "TemplateMatch",
+        "template": "allget.png",
         "action": "Click",
         "next": [
             "回到首頁"
