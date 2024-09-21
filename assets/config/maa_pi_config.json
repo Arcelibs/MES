@@ -9,5 +9,10 @@
         "config": {}
     },
     "resource": "國際服繁中",
-    "task": []
+    "task": [
+        {
+            "name": "收信跟獎勵",
+            "option": []
+        }
+    ]
 }

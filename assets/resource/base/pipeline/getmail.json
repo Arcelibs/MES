@@ -9,7 +9,7 @@
     },
     "一般": {
         "recognition": "OCR",
-        "expected": "一般",
+        "expected": "般",
         "action": "Click",
         "next": [
             "一般全部領取"
